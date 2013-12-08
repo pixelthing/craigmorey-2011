@@ -1,0 +1,84 @@
+
+
+/* SLIDES: HEADER */
+
+header .column_inner {
+	width:14em;
+	margin-top:-12em;
+	margin-left:-8em;
+	padding-left:0;
+}
+header h1 {
+	position:relative;
+	left:auto;
+	top:auto;
+	text-align:left;
+}
+
+/* SLIDES: CV */
+
+#cv .column {
+	width:auto;
+	margin: 3em 3em 0 3em;
+}
+#cv .column h1 {
+	position:relative;
+	left:auto;
+	top:auto;
+}
+#cv .column h1 em {
+	display:inline;
+}
+#cv .column .rotator {
+	position:relative;
+	left:auto;
+	right:auto;
+	top:auto;
+	width:auto;
+	margin-top:0.5em;
+}
+#portfolio_list {
+	margin-left:-10em;
+}
+#portfolio_list .child {
+	width:22em;
+}
+#portfolio_pop_up {
+	left:10em;
+	bottom:2em;
+	width:22.1em;
+	height:60%;
+}
+#portfolio_pop_up.expand {
+	left:0;
+	bottom:0;
+	width:100%;
+	height:76%;
+}
+#portfolio_pop_up.out {
+	-webkit-transform: translateY( 110% );
+}
+
+
+
+/* SLIDES: SOCIAL */
+
+#links .column {
+	margin: 2.5em 0 0 3em;
+}
+#social_links {
+	top:50%;
+	left:0.2em;
+	background-image: linear-gradient(top , rgba(0,0,102,0.2) 0%, rgba(0,0,102,0) 6%);
+	background-image: -o-linear-gradient(top , rgba(0,0,102,0.2) 0%, rgba(0,0,102,0) 6%);
+	background-image: -moz-linear-gradient(top , rgba(0,0,102,0.2) 0%, rgba(0,0,102,0) 6%);
+	background-image: -webkit-linear-gradient(top , rgba(0,0,102,0.2) 0%, rgba(0,0,102,0) 6%);
+	background-image: -ms-linear-gradient(top , rgba(0,0,102,0.2) 0%, rgba(0,0,102,0) 6%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.00, rgba(0,0,102,0.2)),
+		color-stop(0.06, rgba(0,0,102,0))
+	);
+}

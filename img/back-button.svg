@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="689px" height="530px" viewBox="0 0 689 530" enable-background="new 0 0 689 530" xml:space="preserve">
+<rect display="none" fill-rule="evenodd" clip-rule="evenodd" fill="#9B9B9B" width="689" height="530"/>
+<path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M353.704,390.941h58.825h194.179
+	c24.987,0,45.292-20.305,45.292-45.292V134.292C652,109.305,631.695,89,606.708,89H412.529h-58.825H225.118
+	c-61.22,65.074-114.529,156.176-114.529,156.176s54.662,82.043,113.904,145.765H353.704z"/>
+<path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="
+	M106,252c0,0,58.599,85.981,117.842,149.702h129.211h58.826h194.178c24.987,0,45.292-20.305,45.292-45.292"/>
+<path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" d="
+	M109.938,244.526c0,0,54.662,82.043,113.904,145.765h129.211h58.826h194.178c24.987,0,45.292-20.305,45.292-45.292"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="381.2939" y1="91" x2="381.2939" y2="245">
+	<stop  offset="0" stop-color="#FFFFFF" stop-opacity="0.5"/>
+	<stop  offset="1" stop-color="#FFFFFF" stop-opacity="0.2"/>
+</linearGradient>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" d="M652,245.176V134.292C652,109.305,631.695,89,606.708,89
+	H412.529h-58.825H225.118c-61.22,65.074-114.529,156.176-114.529,156.176H652z"/>
+<rect x="249.941" y="115.824" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="365.555" height="199.906"/>
+<text transform="matrix(1 0 0 1 249.9414 273.375)" opacity="0.4" font-family="'HelveticaNeue-Bold'" font-size="124.9412">Back</text>
+<rect x="256.352" y="120.234" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="365.559" height="199.91"/>
+<text transform="matrix(1 0 0 1 256.3516 277.7852)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="124.9412">Back</text>
+<path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="
+	M353.704,390.941h58.825h194.179c24.987,0,45.292-20.305,45.292-45.292V134.292C652,109.305,631.695,89,606.708,89H412.529h-58.825
+	H225.118c-61.22,65.074-114.529,156.176-114.529,156.176s54.662,82.043,113.904,145.765H353.704z"/>
+<path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="
+	M109,245c0,0,56.599-95.341,115.842-159.062h129.211h58.826h194.178c24.987,0,45.292,20.305,45.292,45.292"/>
+</svg>

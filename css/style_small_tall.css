@@ -1,0 +1,53 @@
+
+
+/* SLIDES: HEADER */
+
+header .column_inner {
+	width:16em;
+	margin-top:-8em;
+	margin-left:-8em;
+	padding-left:0;
+}
+
+/* SLIDES: CV */
+
+#cv .column {
+	width:auto;
+	margin: 3em 1em 0 1em;
+}
+
+#cv .column h1 {
+	left:0;
+}
+.child_detail_text {
+	font-size: 1em;
+}
+
+
+#links .column {
+	margin-right:1em;
+	width: auto;
+}
+#links .column p {
+	display:none;
+}
+#social_links {
+	top:40%;
+}
+
+/* CONTACT */
+
+
+#contact h1 em {
+	display:block;
+}
+#contact_label { 
+	height:16em;
+}
+#contact_label textarea {
+	height:15em;
+}
+#contact_label input#contact_button {
+	width:4em;
+	height:4em;
+}

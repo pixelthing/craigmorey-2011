@@ -1,0 +1,19 @@
+#container1 {
+	left:10%;
+	right:10%;
+	top:10%;
+	bottom:10%;
+}
+
+/* CONTACT */
+
+#contact {
+
+	-webkit-transform:rotate(-30deg) translate3d(-55em,-30em,0);
+	
+	-moz-transform:rotate(-30deg) translate(-55em,-30em);
+	
+	-ms-transform:rotate(-30deg) translate(-55em,-30em);
+	
+	transform:rotate(-30deg) translate(-55em,-30em);
+}

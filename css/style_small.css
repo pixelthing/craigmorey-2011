@@ -1,0 +1,279 @@
+
+body {
+	background:#666;
+}
+h1 {
+	font-size:3em;
+}
+#container1 {
+	position:static;
+	height:100%;
+	left:inherit;
+	right:inherit;
+	top:inherit;
+	bottom:inherit;
+	box-shadow:none;
+	border-radius:0;
+}
+header,
+article#cv,
+article#links {
+	border-radius:0;
+}
+.backtotop {
+	top:0;
+	left:0;
+}
+
+/* SLIDES: HEADER */
+
+header h1 {
+	font-size:3.5em;
+}
+header .column_inner {
+	width: 15em;
+	margin-top: -6em;
+	margin-left: -15em;
+	padding-left: 15em;
+}
+
+/* SLIDES: CV */
+
+#cv .column .break1 {
+	display:inline;
+}
+#cv .column h1 {
+	left:13%;
+}
+#cv .column h1 em {
+	display:inline;
+}
+.rotator {
+	display:none;
+}
+#portfolio_list {
+	margin-left:0;
+}
+
+.touch #portfolio_prev,
+.touch #portfolio_next {
+	display:none;
+}
+
+#portfolio_list .child {
+	position:absolute;
+	left:5%;
+	bottom:2em;
+	z-index:20;
+	width:90%;
+}
+
+#portfolio_list .offright,
+#portfolio_list .offleft,
+#portfolio_list .f1,
+#portfolio_list .f2,
+#portfolio_list .f3,
+#portfolio_list .f4,
+#portfolio_list .f5,
+#portfolio_list .f6,
+#portfolio_list .f7 {
+	display:none;
+}
+
+#portfolio_list .f8 {
+	-webkit-transform: translateX(-110%) scale(0.9) rotateY(0) translateZ(0) translateY(0);
+}
+#portfolio_list .f9 {
+	-webkit-transform: translateX(-50%) scale(0.9) rotateY(0) translateZ(0) translateY(0);
+}
+#portfolio_list .active {
+	z-index:21;
+	-webkit-transform: translateX(0) scale(1) rotateY(0) translateZ(0) translateY(0);
+}
+#portfolio_list .post {
+	-webkit-transform: translateX(50%) scale(0.9) rotateY(0) translateZ(0) translateY(0);
+}
+
+@-webkit-keyframes shudderAnim {
+        0%   { -webkit-transform: translateX(0); }
+        20%   { -webkit-transform: translateX(-0.5em); }
+        40% { -webkit-transform: translateX(1em); }
+        60% { -webkit-transform: translateX(-1em); }
+        80% { -webkit-transform: translateX(0.5em); }
+       	100% { -webkit-transform: translateX(0); }
+}
+@-moz-keyframes shudderAnim {
+        0%   { -moz-transform: translateX(0); }
+        20%   { -moz-transform: translateX(-0.5em); }
+        40% { -moz-transform: translateX(1em); }
+        60% { -moz-transform: translateX(-1em); }
+        80% { -moz-transform: translateX(0.5em); }
+       	100% { -moz-transform: translateX(0); }
+}
+@-ms-keyframes shudderAnim {
+        0%   { -ms-transform: translateX(0); }
+        20%   { -ms-transform: translateX(-0.5em); }
+        40% { -ms-transform: translateX(1em); }
+        60% { -ms-transform: translateX(-1em); }
+        80% { -ms-transform: translateX(0.5em); }
+       	100% { -ms-transform: translateX(0); }
+}
+#portfolio_list .active.shudder {
+	-webkit-animation: shudderAnim 300ms normal;
+	-moz-animation: shudderAnim 300ms normal;
+	-ms-animation: shudderAnim 300ms normal;
+}
+
+
+#portfolio_pop_up {
+	top:0;
+	left:0;
+	width:100%;
+	height:0;
+}
+#portfolio_pop_up.expand {
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.child_detail_inner {
+	padding: 1em;
+}
+.child_detail_text {
+	font-size: 0.7em;
+}
+#zeptolbox_box_container,
+#zeptolbox_box,
+#zeptolbox_box_inner {
+	left:0 !important;
+	top:0 !important;
+	width:100% !important;
+	height:100% !important;
+	margin:0;
+	padding:0;
+	background-color:#fff;
+	background-position:50% 50%;
+	text-align:center;
+}
+#zeptolbox_info_outer {
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+}
+#zeptolbox_close,
+#zeptolbox_info_close {
+	right: 0.5em;
+	top: 0.5em;
+}
+#zeptolbox_next {
+	right: 3.0em;
+	top: 0.5em;
+}
+#zeptolbox_prev {
+	right: 5.5em;
+	top: 0.5em;
+}
+.closed #zeptolbox_info_close {
+	top: auto;
+	bottom: 0.5em;
+}
+
+.hidden_inner {
+	padding:1em 1em;
+}
+
+/* SLIDES: SOCIAL */
+
+#links .column {
+	margin:3.5em 0 0 1em;
+	width:15em;
+}
+#social_links ul {
+	margin: 0.5em 1em 0 1em;
+}
+#social_links .social_thumb {
+	float:none;
+	display:block;
+	margin-bottom:0.8em;
+}
+#social_links li div {
+	margin:0;
+}
+#social_links li {
+	margin: 0 0 1em 0.5em; 
+}
+#social_links li p {
+	font-size:1em;
+}
+
+/* CONTACT */
+
+#contact {
+	left:0;
+	top:0;
+	z-index:15;
+	width:100%;
+	height:100%;
+	padding:0;
+	box-shadow:none;
+	border-radius:0;
+	
+	-webkit-transform:rotate(0) translate3d(-100%,0,0);
+	
+	-moz-transform:rotate(0) translate(-100%,0);
+	
+	-ms-transform:rotate(0) translate(-100%,0);
+
+	transform:rotate(0) translate(-100%,0);
+}
+#contact.peek {
+	-webkit-transform:rotate(0) translate3d(-90%,0,0);
+	
+	-moz-transform:rotate(0) translate(-90%,0);
+	
+	-ms-transform:rotate(0) translate(-90%,0);
+	
+	transform:rotate(0) translate(-90%,0);
+}
+#contact.active {
+	-webkit-transform:rotate(0) translate3d(0,0,0);
+	
+	-moz-transform:rotate(0) translate(0,0);
+	
+	-ms-transform:rotate(0) translate(0,0);
+	
+	transform:rotate(0) translate(0,0);
+}
+#contact h1 {
+	margin:0.2em 0.2em 0;
+}
+#contact_label input,
+#contact_label textarea {
+	font-size:1em;
+}
+#contact_label textarea {
+	height:6em;
+}
+#contact_label input#contact_button {
+	width:6em;
+	height:6em;
+}
+#contact h1 em {
+	display:inline;
+}
+
+
+
+/* ATOMOCO */
+
+
+#atomoco {
+	background:#666;	/* grey because the default browser background is grey in iOS, not white as on the desktop */
+}
+
+/* MISC */
+
+.wf-loading #spinner {
+	left:45%;
+}
